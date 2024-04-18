@@ -1,21 +1,4 @@
-//MENU RESPONSIVO
-let menuResponsivo = document.querySelector('.menu-site');
-document.querySelector('#menu').onclick =() =>{
-    menuResponsivo.classList.toggle('active');
 
-    
-
-    login.classList.remove('active');
-    carrinho.classList.remove('active');
-
-}
-
-
-
-window.onscroll = () =>{
-    carrinho.classList.remove('active');
-    login.classList.remove('active');
-}
 
 var swiper = new Swiper(".home-slider",{
     autoplay:{
