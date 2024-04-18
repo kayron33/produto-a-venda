@@ -235,6 +235,7 @@ section{
     min-height: 100vh;
     background-size: cover !important;
     background-position: center !important;
+    background: url(imagens/site\ menu\ pagina\ unida.jpeg);
 }
 .msflix-destaque .slide .content{
     display: none;
