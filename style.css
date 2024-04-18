@@ -349,6 +349,7 @@ background-color: black;
 .empresa .row .content h3{
     font-size: 3.5rem;
     color: white;
+    text-align: center;
 }
 .empresa .row .content h3 span{
     color: rgb(22, 22, 167);
@@ -366,6 +367,9 @@ background-color: black;
     color: white;
     border: 1px solid #fff;
     margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 } 
 .empresa .btn:hover{
     background-color: #fffb00;
